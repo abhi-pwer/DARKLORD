@@ -124,7 +124,7 @@ rl.question("Enter your name: ", function(name) {
     rl.close();
 }); */
 
-const msg = "abc \n def";
+/*const msg = "abc \n def";
 console.log(msg);
 const msg2 = 'abcdefjf';
 console.log(msg2);
@@ -132,4 +132,51 @@ const msg3 = `abcdefg
 sjdbk
 h`;
 console.log(msg3);
+*/
 
+
+/*var greet = function() {
+    console.log("Hello from function expression!");
+};
+
+function greet() {
+  console.log("Testing");
+}
+
+setTimeout(greet, 2000);  
+*/
+
+
+/*let count = 30;
+function incrementCounter(){
+    count = count-1;
+    console.log(count);
+}
+
+function target30(){
+    console.log(count);
+    while (count>0) {
+        incrementCounter();
+    }
+}
+
+target30();
+*/
+
+//Some Random JS function practice
+
+// const value = "Abhishek";
+// let ans = value.slice(1,4);
+// let ans2 = value.length;
+
+// console.log(ans);
+// console.log(`Lenght is :${ans2}`);
+
+// const str = "hello worldhe worlhed"
+// console.log(str.replace("he", "hy"));
+// console.log(str.replaceAll("he", "hy"));
+// console.log(str.toUpperCase("he", "hy"));
+
+
+const str = "random,words generate for undertanding : an : example"
+console.log(str.split("words"));
